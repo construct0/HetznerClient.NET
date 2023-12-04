@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Hetzner Client</Title>
+    <Authors>Benjamin Van Renterghem</Authors>
+    <Company>construct0</Company>
+    <Description>Enabling software developers by providing a fully fledged client to interact with Hetzner REST API interfaces.</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://construct0.com/projects/hetznerclient</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/construct0/HetznerClient</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>hetzner, client, cloud, dns, interface, rest, api, interact</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageIcon>c0.png</PackageIcon>
+    <AnalysisLevel>6.0</AnalysisLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Model\HetznerServerMetadata.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\server\Pictures\c0.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="Y:\Github\Public\construct0\HetznerClient\Project\HetznerClient\HetznerClient\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="Y:\Github\Public\construct0\HetznerClient\Project\HetznerClient\HetznerClient\.editorconfig" />
+  </ItemGroup>
+
+</Project>

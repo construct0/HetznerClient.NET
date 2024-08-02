@@ -1,5 +1,8 @@
 ### HetznerClient.NET
 
+Development of this client currently has a low priority, please refer to the trello board for more information: https://trello.com/w/construct0nyzo
+
+
 This project is not production ready, working on modelling and infra right now.
 The project uses .NET 6 and a minimal amount of third-party packages to avoid overhead.
 
